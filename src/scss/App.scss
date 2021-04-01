@@ -1,0 +1,29 @@
+.app__header {
+  height: 60px;
+  width: 100%;
+  background-color: #ffc0cb;
+  display: flex;
+  ul {
+    display: flex;
+    list-style-type: none;
+    li {
+      padding-left:20px;
+      cursor: pointer;
+      color:black;
+      font-weight: bold;
+    }
+    li:hover {
+      color:white;
+    }
+  }
+
+}
+.app__content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.link-to {
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.no-data {
+    text-align: center;
+    margin-top: 250px;
+}
+.container__users {
+    display: flex;
+    flex-direction: column;
+    .item {
+        margin-top: 15px;
+    }
+    .container__users__btn {
+        position: fixed;
+        left: 0;
+        top:61px;
+    }
+}
